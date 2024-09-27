@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.web-app {
+    margin-top: 2rem;
+}
+
+.website-name {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 800;
+    color: rgb(74, 73, 73);
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px rgb(90, 98, 98),
+        0 0 70px rgb(90, 98, 98),
+        0 0 80px rgb(90, 98, 98),
+        0 0 90px rgb(90, 98, 98),
+        0 0 140px rgb(90, 98, 98);
+}
+
+.choose-file-input {
+    height: 2rem;
+    padding: 10px;
+    margin: 2rem;
+    font-size: large;
+}
+
+.file-preview-header {
+    font-size: large;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.preview-container {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.file-preview {
+    border-radius: 2px;
+}
+
+.upload-button {
+    background-color: rgb(100, 100, 226);
+    box-shadow: 0 8px 16px 0 rgba(248, 247, 247, 0.2);
+    color: white;
+    margin: 1rem;
+}
+
+.upload-button:hover {
+    background-color: rgb(94, 94, 195);
+}
+
+.cloud-uploading-gif {
+    display: flex;
+    justify-content: center;
+}
+
+.successfull-upload-text {
+    font-size: x-large;
+    text-align: center;
+}
